@@ -2,7 +2,7 @@
 <section class="post-item">
   <h3><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
   <div class="post-meta">
-    <p>{{ post.date | readableDate }} - {% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>{% endfor %}</p>
+    <p>{{ post.date | htmlDateString }} - {% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a> {% endfor %}</p>
   </div>
 </section>
 {% endfor %}
