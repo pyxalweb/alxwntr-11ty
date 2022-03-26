@@ -1,0 +1,65 @@
+-----------------------------------------------------------------------------------
+LOCAL ELEVENTY INSTALL WITH 'eleventy-base-blog'
+-----------------------------------------------------------------------------------
+
+*** Visit https://github.com/11ty/eleventy-base-blog and click "Use this template". Give the new repository a name and then click "Create repository from template".
+
+
+
+
+*** Once the repository is cloned, go to it and then click the "Code" button and select "Open with GitHub Desktop".
+
+
+
+
+*** Open the directory in VS Code
+
+
+
+
+*** In the VS Code terminal, enter:
+npm init -y
+
+
+
+
+*** In the VS Code terminal, enter:
+npm install @11ty/eleventy --save-dev
+
+
+
+
+*** In the VS Code terminal, enter:
+npm start
+
+
+
+
+*** You should then see something similar in the terminal:
+[11ty] Copied 4 files / Wrote 18 files in 0.20 seconds (11.1ms each, v1.0.0)
+[11ty] Watching…
+[Browsersync] Access URLs:
+ --------------------------------       
+    Local: http://localhost:8080
+ External: http://10.0.0.207:8080
+ --------------------------------       
+[Browsersync] Serving files from: _site
+
+
+
+
+*** Open http://localhost:8080 in your web browser and you should see the /_site/index.html page.
+
+
+
+
+-----------------------------------------------------------------------------------
+MODIFY THE THEME
+-----------------------------------------------------------------------------------
+
+*** Open '_data/metadata.json' and edit each line as needed.
+
+
+
+
+*** Open '_includes/layouts.base.njk' and begin editing the markup within the <body> as needed.
