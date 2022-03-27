@@ -1,0 +1,26 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "alxwntr",
+  "language": "en",
+  "home_page_url": "https://alxwntr.com/",
+  "feed_url": "https://alxwntr.com/feed/feed.json",
+  "description": "Alex Winter is a web developer in Portland, Oregon.",
+  "author": {
+    "name": "Alex Winter",
+    "url": "https://alxwntr.com/about/"
+  },
+  "items": [{
+      "id": "https://alxwntr.com/src/posts/2021-10-22-a-few-fujifilm-favorites-2020-2021/",
+      "url": "https://alxwntr.com/src/posts/2021-10-22-a-few-fujifilm-favorites-2020-2021/",
+      "title": "A Few Fujifilm Favorites 2020-2021",
+      "content_html": "<p>Fujifilm Instax Wide 300.<br />\nVarious locations in Portland, OR. Except the beach photo.</p>\n<p><img src=\"https://alxwntr.com/img/2021-10-21-rose-ray-apartments-portland.jpg\" alt=\"Rose Ray Apartments Portland OR\" /><br />\n<em>Rose Ray Apartments</em></p>\n<p><img src=\"https://alxwntr.com/img/2021-10-21-100-stair-beach.jpg\" alt=\"100 Stair Beach aka Short Beach, Oregon\" /><br />\n<em>100 Stair Beach</em></p>\n<p><img src=\"https://alxwntr.com/img/2021-10-21-nancy-the-cat.jpg\" alt=\"Nancy the cat\" /><br />\n<em>Nancy the cat</em></p>\n<p><img src=\"https://alxwntr.com/img/2021-10-21-laurelhurst-park.jpg\" alt=\"Laurelhurst Park, Portland OR\" /><br />\n<em>Laurelhurst Park, Portland OR</em></p>\n<p><img src=\"https://alxwntr.com/img/2021-10-21-cool-tree.jpg\" alt=\"Somebody's really cool tree\" /><br />\n<em>Somebody's really cool tree</em></p>\n",
+      "date_published": "2021-10-22T00:00:00Z"
+    },{
+      "id": "https://alxwntr.com/src/posts/2021-06-26-hello-world-im-alex-winter/",
+      "url": "https://alxwntr.com/src/posts/2021-06-26-hello-world-im-alex-winter/",
+      "title": "Hello world, I’m Alex Winter.",
+      "content_html": "<p>I am a web developer from the San Francisco Bay Area and currently living in Portland, Oregon. I have been building websites since I was very young. The first web page that I ever put online was in 2001 and I’ve been building the web ever since.</p>\n<p>The very minimal design of this website is a testament to my ideology that the web should be legible and easily accessible to all. User interface is an under appreciated art form but very important part of the modern world that we live in today.</p>\n<p>I plan to use this as a personal site of musings. We’ll see if I stick with it. Besides web development related topics I will likely post about the post-COVID concerts that I attend, my explorations of Portland, and hopefully share some things I learn as life goes on.</p>\n",
+      "date_published": "2021-06-26T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>alxwntr</title>
+	<subtitle>Alex Winter is a web developer in Portland, Oregon.</subtitle>
+	
+	<link href="https://alxwntr.com/feed/feed.xml" rel="self"/>
+	<link href="https://alxwntr.com/"/>
+	<updated>2021-10-22T00:00:00Z</updated>
+	<id>https://alxwntr.com/</id>
+	<author>
+		<name>Alex Winter</name>
+		<email>noreply@pyxalweb.com</email>
+	</author>
+	
+	<entry>
+		<title>A Few Fujifilm Favorites 2020-2021</title>
+		<link href="https://alxwntr.com/src/posts/2021-10-22-a-few-fujifilm-favorites-2020-2021/"/>
+		<updated>2021-10-22T00:00:00Z</updated>
+		<id>https://alxwntr.com/src/posts/2021-10-22-a-few-fujifilm-favorites-2020-2021/</id>
+		<content type="html">&lt;p&gt;Fujifilm Instax Wide 300.&lt;br /&gt;
+Various locations in Portland, OR. Except the beach photo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alxwntr.com/img/2021-10-21-rose-ray-apartments-portland.jpg&quot; alt=&quot;Rose Ray Apartments Portland OR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Rose Ray Apartments&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alxwntr.com/img/2021-10-21-100-stair-beach.jpg&quot; alt=&quot;100 Stair Beach aka Short Beach, Oregon&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;100 Stair Beach&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alxwntr.com/img/2021-10-21-nancy-the-cat.jpg&quot; alt=&quot;Nancy the cat&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Nancy the cat&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alxwntr.com/img/2021-10-21-laurelhurst-park.jpg&quot; alt=&quot;Laurelhurst Park, Portland OR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Laurelhurst Park, Portland OR&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alxwntr.com/img/2021-10-21-cool-tree.jpg&quot; alt=&quot;Somebody&#39;s really cool tree&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Somebody&#39;s really cool tree&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hello world, I’m Alex Winter.</title>
+		<link href="https://alxwntr.com/src/posts/2021-06-26-hello-world-im-alex-winter/"/>
+		<updated>2021-06-26T00:00:00Z</updated>
+		<id>https://alxwntr.com/src/posts/2021-06-26-hello-world-im-alex-winter/</id>
+		<content type="html">&lt;p&gt;I am a web developer from the San Francisco Bay Area and currently living in Portland, Oregon. I have been building websites since I was very young. The first web page that I ever put online was in 2001 and I’ve been building the web ever since.&lt;/p&gt;
+&lt;p&gt;The very minimal design of this website is a testament to my ideology that the web should be legible and easily accessible to all. User interface is an under appreciated art form but very important part of the modern world that we live in today.&lt;/p&gt;
+&lt;p&gt;I plan to use this as a personal site of musings. We’ll see if I stick with it. Besides web development related topics I will likely post about the post-COVID concerts that I attend, my explorations of Portland, and hopefully share some things I learn as life goes on.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
