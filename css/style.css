@@ -30,7 +30,7 @@ body.light {
 h1,
 h2,
 h3 {
-  margin: 0 0 1em 0;
+  margin: 0;
 }
 
 h1 {
@@ -49,7 +49,7 @@ h3 {
 /* Links
 ============================================================ */
 a {
-  color: #2994ff;
+  color: #4da6ff;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a.light {
 }
 
 a:hover, a:focus {
-  color: #2994ff;
+  color: #4da6ff;
   -webkit-transition: all .25s;
   transition: all .25s;
 }
@@ -274,7 +274,7 @@ footer {
 }
 
 .social li a:hover, .social li a:focus {
-  color: #2994ff;
+  color: #4da6ff;
 }
 
 /* Post Items
@@ -299,6 +299,10 @@ footer {
   color: #ABABAB;
 }
 
+.post-meta time {
+  font-style: normal;
+}
+
 /* Posts
 ============================================================ */
 .post p {
@@ -310,14 +314,17 @@ footer {
   margin-bottom: 0;
 }
 
-/* Wordpress Block Images
-============================================================ */
-.wp-block-image {
-  margin: 1em 0;
-  text-align: center;
+.morePosts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #ABABAB;
 }
 
-.wp-block-image img {
+/* Posts
+============================================================ */
+.tmpl-post img {
+  max-width: 100%;
   height: 100%;
 }
 
@@ -339,7 +346,7 @@ footer {
 }
 
 .accordion-title a {
-  background: #2994ff;
+  background: #4da6ff;
   display: block;
   padding: 0.75em 3em 0.75em 1em;
   position: relative;

@@ -7,6 +7,9 @@ tags:
 layout: layouts/post.njk
 ---
 
+Fujifilm Instax Wide 300.
+Various locations in Portland, OR. Except the beach photo.
+
 ![Rose Ray Apartments Portland OR](/img/2021-10-21-rose-ray-apartments-portland.jpg)
 *Rose Ray Apartments*
 
