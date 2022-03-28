@@ -1,0 +1,20 @@
+<header class="site-header" id="header">
+  <div class="site-logo">
+
+      {% if templateClass == 'tmpl-home' %}
+      <h1 class="logo">{{ metadata.title }}</h1>
+      {% else %}
+      <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+      {% endif %}
+
+
+  </div>
+
+  <nav class="site-nav">
+    <ul>
+      {%- for entry in collections.all | eleventyNavigation %}
+      <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+</header>
