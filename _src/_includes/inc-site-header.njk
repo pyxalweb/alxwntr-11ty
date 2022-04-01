@@ -1,13 +1,10 @@
 <header class="site-header" id="header">
   <div class="site-logo">
-
-      {% if templateClass == 'tmpl-home' %}
-      <h1 class="logo">{{ metadata.title }}</h1>
-      {% else %}
-      <a href="{{ '/' | url }}">{{ metadata.title }}</a>
-      {% endif %}
-
-
+    {% if templateClass == 'tmpl-home' %}
+    <h1 class="logo">{{ metadata.title }}</h1>
+    {% else %}
+    <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+    {% endif %}
   </div>
 
   <nav class="site-nav">
