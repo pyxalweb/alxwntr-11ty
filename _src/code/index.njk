@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-code
+title: Code
+eleventyNavigation:
+  key: Code
+  order: 2
+---
+
+{% set postslist = collections.Code %}
+{% set postslistCounter = collections.posts | length %}
+{% for post in postslist | reverse %}
+<section class="post-item">
+  <h3><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
+  <div class="post-meta">
+    <p>{{ post.date | htmlDateString }} - {% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a> {% endfor %}</p>
+  </div>
+</section>
+{% endfor %}
+

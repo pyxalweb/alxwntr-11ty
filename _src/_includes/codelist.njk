@@ -1,0 +1,8 @@
+{% for code in codelist | reverse %}
+<section class="code-item">
+  <h3><a href="{{ code.url | url }}">{% if code.data.title %}{{ code.data.title }}{% else %}<code>{{ code.url }}</code>{% endif %}</a></h3>
+  <div class="code-meta">
+    <p>{{ code.date | htmlDateString }} - {% for tag in code.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="code-tag">{{ tag }}</a> {% endfor %}</p>
+  </div>
+</section>
+{% endfor %}
